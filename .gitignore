@@ -1,0 +1,6 @@
+dex-app/node_modules
+dex-app/wrangler.toml
+dex-app/.env
+dex-app/utils
+dex-program/target
+dex-program/node_modules
