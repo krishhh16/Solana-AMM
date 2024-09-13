@@ -1,12 +1,12 @@
 import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
-import { DexProgram } from "../target/types/dex_program";
+import { LpProgram } from "../target/types/lp_program";
 
-describe("dex-program", () => {
+describe("lp-program", () => {
   // Configure the client to use the local cluster.
   anchor.setProvider(anchor.AnchorProvider.env());
 
-  const program = anchor.workspace.DexProgram as Program<DexProgram>;
+  const program = anchor.workspace.LpProgram as Program<LpProgram>;
 
   it("Is initialized!", async () => {
     // Add your test here.
